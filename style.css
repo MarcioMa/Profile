@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#cabecalho{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#fotop{
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+section{
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    margin: 15px;
+    padding: 15px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+a{
+    color: #ccc;
+    font-size: 14pt;   
+}
+
+.icones{
+    width: 40px;
+    height: 40px;
+    display: inline; 
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+/* Configuração UL */
+ul{
+    list-style-type: none;
+}
+li{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+li:hover{
+    background-color: orangered;
+}
